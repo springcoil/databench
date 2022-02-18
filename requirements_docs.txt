@@ -4,3 +4,4 @@ sphinxcontrib-email==0.1
 ghp-import==0.4.1
 
 -e git+https://github.com/svenkreiss/alabaster.git#egg=alabaster-master
+pygments>=2.7.4 # not directly required, pinned by Snyk to avoid a vulnerability
